@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap-scss/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="libs/slick/slick.css">
+    <link rel="stylesheet" href="libs/wow/css/libs/animate.css">
+    <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="libs/custom-modal/custom-modal.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.min.css">
+    <title>Delice Chocolate</title>
+</head>
+<body>
+<!--HEADER BEGIN-->
+<div class="header header-h">
+    <nav class="nav nav-p">
+        <div class="nav-menu flex-row">
+            <div class="nav-brand">
+                <a href="#">
+                    <img src="images/logo.png" alt="">
+                </a>
+            </div>
+            <div class="nav-block">
+                <ul class="nav-items">
+                    <li class="nav-close-icon" style="display: none">
+                        <svg height="329pt" viewBox="0 0 329.26933 329" width="329pt"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="m194.800781 164.769531 128.210938-128.214843c8.34375-8.339844 8.34375-21.824219 0-30.164063-8.339844-8.339844-21.824219-8.339844-30.164063 0l-128.214844 128.214844-128.210937-128.214844c-8.34375-8.339844-21.824219-8.339844-30.164063 0-8.34375 8.339844-8.34375 21.824219 0 30.164063l128.210938 128.214843-128.210938 128.214844c-8.34375 8.339844-8.34375 21.824219 0 30.164063 4.15625 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921875-2.089844 15.082031-6.25l128.210937-128.214844 128.214844 128.214844c4.160156 4.160156 9.621094 6.25 15.082032 6.25 5.460937 0 10.921874-2.089844 15.082031-6.25 8.34375-8.339844 8.34375-21.824219 0-30.164063zm0 0"/>
+                        </svg>
+                    </li>
+                    <li class="nav-link ">
+                        <a href="#">ГЛАВНАЯ</a>
+                    </li>
+                    <li class="nav-link active">
+                        <a href="#">О КОМПАНИИ</a>
+                    </li>
+                    <li class="nav-link ">
+                        <a href="#">ПРОДУКЦИЯ</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">галерея</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">новости </a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#">контакты </a>
+                    </li>
+                </ul>
+                <div class="social">
+                    <div class="header-top-search">
+                        <div class="search-modal" style="display: none">
+                            <form class="search-modal-form">
+                                <input type="text" class="search-modal-input" placeholder="поиск по сайту">
+                                <button class="search-modal-icon">
+                                    <img src="images/search.png" alt="">
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <button class="social-item-button">
+                        <img src="images/search.png" alt="">
+                    </button>
+<!--                    <a href="#" class="social-item">-->
+<!--                        <img src="images/cart.png" alt="">-->
+<!--                    </a>-->
+                    <div class="lang-current">RU
+                        <svg version="1.1" height="12" width="25" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 512.011 512.011" style="enable-background:new 0 0 512.011 512.011;"
+                             xml:space="preserve">
+                            <path d="M505.755,123.592c-8.341-8.341-21.824-8.341-30.165,0L256.005,343.176L36.421,123.592c-8.341-8.341-21.824-8.341-30.165,0
+                                s-8.341,21.824,0,30.165l234.667,234.667c4.16,4.16,9.621,6.251,15.083,6.251c5.462,0,10.923-2.091,15.083-6.251l234.667-234.667
+                                C514.096,145.416,514.096,131.933,505.755,123.592z"/>
+                        </svg>
+                        <ul class="lang-list">
+                            <li class="lang-list-item"><a href="#">RU</a></li>
+                            <li class="lang-list-item"><a href="#">UZ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="toggle-collapse" style="display: none">
+                    <div class="toggle-icon">
+                        <svg height="32px" id="Layer_1" style="enable-background:new 0 0 32 32;" version="1.1"
+                             viewBox="0 0 32 32" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+                             xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2  s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2  S29.104,22,28,22z"/></svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="header-slider">
+        <div class="slider" style="background: url('./images/header-back.png') no-repeat">
+            <div class="slider-info">
+                <h2 class="slider-title wow fadeInRight" data-wow-duration="2s">Delice chocolate</h2>
+                <div class="slider-devider"></div>
+                <p class="slider-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor
+                    incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut
+                    aliquip ex ea commodo consequat
+                </p>
+                <div class="slider-button">
+                    <button class="slider-button-first wow fadeInRight">Подробнее</button>
+                    <button class="slider-button-two wow fadeInRight">Заказать</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider" style="background: url('./images/header-back.png') no-repeat">
+            <div class="slider-info">
+                <h2 class="slider-title wow bounceInRight" data-wow-duration="2s">Delice chocolate</h2>
+                <div class="slider-devider wow swing"></div>
+                <p class="slider-text wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor
+                    incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut
+                    aliquip ex ea commodo consequat
+                </p>
+                <div class="slider-button">
+                    <button class="slider-button-first wow wobble">Подробнее</button>
+                    <button class="slider-button-two wow rotateInDownRight">Заказать</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider" style="background: url('./images/header-back.png') no-repeat">
+            <div class="slider-info">
+                <h2 class="slider-title wow bounceInRight" data-wow-duration="2s">Delice chocolate</h2>
+                <div class="slider-devider wow swing"></div>
+                <p class="slider-text wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor
+                    incididunt
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                    nisi ut
+                    aliquip ex ea commodo consequat
+                </p>
+                <div class="slider-button">
+                    <button class="slider-button-first wow wobble">Подробнее</button>
+                    <button class="slider-button-two wow rotateInDownRight">Заказать</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--HEADER END-->
+
+
+<!--MAIN BEGIN-->
+<div class="main">
+    <div class="section-first">
+        <div class="container">
+            <h2 class="section-first-title">О КОМПАНИИ</h2>
+            <div class="section-first-devider"></div>
+            <div class="delice-text">
+                <p class="section-first-text">Предприятие DELICE CHOCOLATE успешно занимается производством в Узбекистане
+                    шоколада более 10 лет на новом российском оборудовании, не имеющих аналогов во всей Средней Азии.
+                    Предприятие производит продукцию на импортном сырье, в частности, производства Казахстан, Турция,
+                    Франция, России и т.д.
+                </p>
+            </div>
+            <div class="delice-text">
+                <p class="section-first-text">Мощность нашего производства позволяет выпускать 250 тн. готовой продукции в
+                    месяц. На сегодняшний день налажен полноценный производственный процесс. Наша предприятие обеспечивает
+                    продукцией Республику Узбекистан и готовы экспортировать продукцию в страны ближнего зарубежья.
+                </p>
+            </div>
+            <a href="#" class="section-first-link">УЗНАТЬ БОЛЬШЕ
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 492.004 492.004;"
+                     xml:space="preserve">
+		<path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+			c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+			c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+			c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"/>
+</svg>
+            </a>
+        </div>
+    </div>
+    <div class="section-two">
+        <div class="container">
+            <h2 class="section-first-title">КАТАЛОГ ПРОДУКЦИИ</h2>
+            <div class="section-first-devider"></div>
+            <ul class="section-two-menu">
+                <li class="section-two-menu-item">
+                    <a href="#">Все</a>
+                </li>
+                <li class="section-two-menu-item">
+                    <a href="#">Шоколад</a>
+                </li>
+                <li class="section-two-menu-item">
+                    <a href="#">ирис</a>
+                </li>
+                <li class="section-two-menu-item">
+                    <a href="#">Леденцовые конфеты</a>
+                </li>
+            </ul>
+            <div class="section-two-block row">
+                <div class="section-two-block-item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="section-two-block-item-img">
+                        <img src="images/category-choco-2.png" alt="">
+                        <div class="section-two-block-item-img-button-div">
+                            <button type="type" class="section-two-block-item-img-button">Подробнее</button>
+                        </div>
+                    </div>
+                    <h6 class="section-two-block-item-title">Mersi</h6>
+                    <p class="section-two-block-item-text">шоколад с молочной начинкой</p>
+                    <p class="section-two-block-item-sum"><span>50 000</span>сум</p>
+                </div>
+                <div class="section-two-block-item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="section-two-block-item-img">
+                        <img src="images/category-choco-1.png" alt="">
+                        <div class="section-two-block-item-img-button-div">
+                            <button type="type" class="section-two-block-item-img-button">Подробнее</button>
+                        </div>
+                    </div>
+                    <h6 class="section-two-block-item-title">Mersi</h6>
+                    <p class="section-two-block-item-text">шоколад с молочной начинкой</p>
+                    <p class="section-two-block-item-sum"><span>50 000</span>сум</p>
+                </div>
+                <div class="section-two-block-item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="section-two-block-item-img">
+                        <img src="images/category-choco.png" alt="">
+                        <div class="section-two-block-item-img-button-div">
+                            <button type="type" class="section-two-block-item-img-button">Подробнее</button>
+                        </div>
+                    </div>
+                    <h6 class="section-two-block-item-title">Mersi</h6>
+                    <p class="section-two-block-item-text">шоколад с молочной начинкой</p>
+                    <p class="section-two-block-item-sum"><span>50 000</span>сум</p>
+                </div>
+                <div class="section-two-block-item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="section-two-block-item-img">
+                        <img src="images/category-choco-2.png" alt="">
+                        <div class="section-two-block-item-img-button-div">
+                            <button type="type" class="section-two-block-item-img-button">Подробнее</button>
+                        </div>
+                    </div>
+                    <h6 class="section-two-block-item-title">Mersi</h6>
+                    <p class="section-two-block-item-text">шоколад с молочной начинкой</p>
+                    <p class="section-two-block-item-sum"><span>50 000</span>сум</p>
+                </div>
+                <div class="section-two-block-item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="section-two-block-item-img">
+                        <img src="images/category-choco-1.png" alt="">
+                        <div class="section-two-block-item-img-button-div">
+                            <button type="type" class="section-two-block-item-img-button">Подробнее</button>
+                        </div>
+                    </div>
+                    <h6 class="section-two-block-item-title">Mersi</h6>
+                    <p class="section-two-block-item-text">шоколад с молочной начинкой</p>
+                    <p class="section-two-block-item-sum"><span>50 000</span>сум</p>
+                </div>
+                <div class="section-two-block-item col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12">
+                    <div class="section-two-block-item-img">
+                        <img src="images/category-choco.png" alt="">
+                        <div class="section-two-block-item-img-button-div">
+                            <button type="type" class="section-two-block-item-img-button">Подробнее</button>
+                        </div>
+                    </div>
+                    <h6 class="section-two-block-item-title">Mersi</h6>
+                    <p class="section-two-block-item-text">шоколад с молочной начинкой</p>
+                    <p class="section-two-block-item-sum"><span>50 000</span>сум</p>
+                </div>
+                <a href="#" class="section-two-link">Перейти в каталог
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 492.004 492.004;"
+                         xml:space="preserve">
+		<path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+			c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+			c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+			c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"/>
+</svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="delice-grid">
+        <div class="delice-grid-inner d-grid-1">
+            <div class="delice-grid-item">
+                <div class="delice-grid-item-img img-1">
+                    <div class="delice-grid-before">
+                        <img src="images/product-collection-1.png" alt="">
+                        <div class="product-collection-column-info">
+                            <div class="product-collection-column-info-title">Lorem ipsum</div>
+                            <div class="product-collection-column-info-devider"></div>
+                            <p class="product-collection-column-info-text">Lorem ipsum dolor sit amet consectetur
+                                adipiscing
+                                elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="delice-grid-item-img img-1">
+                    <div class="delice-grid-before">
+                        <img src="images/product-collection-2.png" alt="">
+                        <div class="product-collection-column-info">
+                            <div class="product-collection-column-info-title">Lorem ipsum</div>
+                            <div class="product-collection-column-info-devider"></div>
+                            <p class="product-collection-column-info-text">Lorem ipsum dolor sit amet consectetur
+                                adipiscing
+                                elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="delice-grid-item">
+                <div class="delice-grid-item-img img-3">
+                    <div class="delice-grid-before">
+                        <img src="images/product-collection-3.png" alt="">
+                        <div class="product-collection-column-info">
+                            <div class="product-collection-column-info-title">Lorem ipsum</div>
+                            <div class="product-collection-column-info-devider"></div>
+                            <p class="product-collection-column-info-text">Lorem ipsum dolor sit amet consectetur
+                                adipiscing
+                                elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="delice-grid-item-img img-8">
+                    <div class="delice-grid-before">
+                        <img src="images/product-collection-8.png" alt="">
+                        <div class="product-collection-column-info">
+                            <div class="product-collection-column-info-title">Lorem ipsum</div>
+                            <div class="product-collection-column-info-devider"></div>
+                            <p class="product-collection-column-info-text">Lorem ipsum dolor sit amet consectetur
+                                adipiscing
+                                elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="delice-grid-inner d-grid-2">
+            <div class="delice-grid-item ">
+                <div class="delice-grid-item-img img-4">
+                    <div class="delice-grid-before">
+                        <img src="images/product-collection-4.png" alt="">
+                        <div class="product-collection-column-info">
+                            <div class="product-collection-column-info-title">Lorem ipsum</div>
+                            <div class="product-collection-column-info-devider"></div>
+                            <p class="product-collection-column-info-text">Lorem ipsum dolor sit amet consectetur
+                                adipiscing
+                                elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="delice-grid-item-img img-4">
+                    <div class="delice-grid-before">
+                        <img src="images/product-collection-5.png" alt="">
+                        <div class="product-collection-column-info">
+                            <div class="product-collection-column-info-title">Lorem ipsum</div>
+                            <div class="product-collection-column-info-devider"></div>
+                            <p class="product-collection-column-info-text">Lorem ipsum dolor sit amet consectetur
+                                adipiscing
+                                elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="delice-grid-item">
+                <div class="delice-grid-item-img img-6">
+                    <div class="delice-grid-before">
+                        <img src="images/product-collection-6.png" alt="">
+                        <div class="product-collection-column-info">
+                            <div class="product-collection-column-info-title">Lorem ipsum</div>
+                            <div class="product-collection-column-info-devider"></div>
+                            <p class="product-collection-column-info-text">Lorem ipsum dolor sit amet consectetur
+                                adipiscing
+                                elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="delice-grid-item-img img-7">
+                    <div class="delice-grid-before">
+                        <img src="images/product-collection-7.png" alt="">
+                        <div class="product-collection-column-info">
+                            <div class="product-collection-column-info-title">Lorem ipsum</div>
+                            <div class="product-collection-column-info-devider"></div>
+                            <p class="product-collection-column-info-text">Lorem ipsum dolor sit amet consectetur
+                                adipiscing
+                                elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="delice-grid-inner d-grid-3">
+            <div class="delice-grid-item-to">
+                <div class="delice-grid-item-img img-last">
+                    <div class="delice-grid-before">
+                        <img src="images/product-collection-7.png" alt="">
+                        <div class="product-collection-column-info">
+                            <div class="product-collection-column-info-title">Lorem ipsum</div>
+                            <div class="product-collection-column-info-devider"></div>
+                            <p class="product-collection-column-info-text">Lorem ipsum dolor sit amet consectetur
+                                adipiscing
+                                elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="delice-grid-item-img img-last">
+                    <div class="delice-grid-before">
+                        <img src="images/product-collection-8.png" alt="">
+                        <div class="product-collection-column-info">
+                            <div class="product-collection-column-info-title">Lorem ipsum</div>
+                            <div class="product-collection-column-info-devider"></div>
+                            <p class="product-collection-column-info-text">Lorem ipsum dolor sit amet consectetur
+                                adipiscing
+                                elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-news">
+        <div class="container">
+            <h2 class="section-first-title">КАТАЛОГ ПРОДУКЦИИ</h2>
+            <div class="section-first-devider"></div>
+            <div class="section-news-block row">
+                <div class="section-news-block-item wow bounceInLeft col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12" data-wow-duration="2s">
+                    <div class="section-news-block-item-img">
+                        <img src="images/news1.png" alt="">
+                    </div>
+                    <div class="section-news-block-item-info">
+                        <p class="section-news-block-item-info-date">25.03.2020</p>
+                        <h2 class="section-news-block-item-info-title">РАСШИРЕНИЕ АССОРТИМЕНТА Конфет</h2>
+                        <p class="section-news-block-item-info-text">Не следует, однако забывать, что требуют от нас
+                            анализа форм развития. С другой стороны количественный рост..</p>
+                    </div>
+                </div>
+                <div class="section-news-block-item wow pulse col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12" data-wow-duration="2s">
+                    <div class="section-news-block-item-img">
+                        <img src="images/news2.png" alt="">
+                    </div>
+                    <div class="section-news-block-item-info">
+                        <p class="section-news-block-item-info-date">25.03.2020</p>
+                        <h2 class="section-news-block-item-info-title">РАСШИРЕНИЕ АССОРТИМЕНТА Конфет</h2>
+                        <p class="section-news-block-item-info-text">Не следует, однако забывать, что требуют от нас
+                            анализа форм развития. С другой стороны количественный рост..</p>
+                    </div>
+                </div>
+                <div class="section-news-block-item wow bounceInRight col-xl-4 col-lg-4 col-md-4 col-sm-6 col-12" data-wow-duration="2s">
+                    <div class="section-news-block-item-img">
+                        <img src="images/news3.png" alt="">
+                    </div>
+                    <div class="section-news-block-item-info">
+                        <p class="section-news-block-item-info-date">25.03.2020</p>
+                        <h2 class="section-news-block-item-info-title">РАСШИРЕНИЕ АССОРТИМЕНТА Конфет</h2>
+                        <p class="section-news-block-item-info-text">Не следует, однако забывать, что требуют от нас
+                            анализа форм развития. С другой стороны количественный рост..</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="section-first-link">УЗНАТЬ БОЛЬШЕ
+                <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                     viewBox="0 0 492.004 492.004" style="enable-background:new 0 0 492.004 492.004;"
+                     xml:space="preserve">
+		<path d="M382.678,226.804L163.73,7.86C158.666,2.792,151.906,0,144.698,0s-13.968,2.792-19.032,7.86l-16.124,16.12
+			c-10.492,10.504-10.492,27.576,0,38.064L293.398,245.9l-184.06,184.06c-5.064,5.068-7.86,11.824-7.86,19.028
+			c0,7.212,2.796,13.968,7.86,19.04l16.124,16.116c5.068,5.068,11.824,7.86,19.032,7.86s13.968-2.792,19.032-7.86L382.678,265
+			c5.076-5.084,7.864-11.872,7.848-19.088C390.542,238.668,387.754,231.884,382.678,226.804z"/>
+</svg>
+            </a>
+        </div>
+    </div>
+    <div class="main-slider">
+        <div class="main-slider-img" style="background: url('./images/main-slider.png') no-repeat">
+            <div class="container">
+                <div class="main-slider-info">
+                    <h2 class="section-first-title slider-margin">КАТАЛОГ ПРОДУКЦИИ</h2>
+                    <div class="section-first-devider"></div>
+                    <div class="main-slider-info-text">
+                        <p>Натуральность и соответствие всем международным стандартам, позволяет потреблять продукт всем
+                            возрастным категориям. За всё время существования нашего предприятия количество покупателей
+                            только
+                            увеличивалось, были заключены долгосрочные договора на поставку нашей продукции. </p>
+                    </div>
+                    <h6 class="main-slider-title">ЕЛЕНА ПЕТРОВА</h6>
+                    <div class="main-slider-text">
+                        <p>АО “Билайн лимитед”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-slider-img" style="background: url('./images/main-slider.png') no-repeat">
+            <div class="container">
+                <div class="main-slider-info">
+                    <h2 class="section-first-title">КАТАЛОГ ПРОДУКЦИИ</h2>
+                    <div class="section-first-devider"></div>
+                    <div class="main-slider-info-text">
+                        <p>Натуральность и соответствие всем международным стандартам, позволяет потреблять продукт всем
+                            возрастным категориям. За всё время существования нашего предприятия количество покупателей
+                            только
+                            увеличивалось, были заключены долгосрочные договора на поставку нашей продукции. </p>
+                    </div>
+                    <h6 class="main-slider-title">ЕЛЕНА ПЕТРОВА</h6>
+                    <div class="main-slider-text">
+                        <p>АО “Билайн лимитед”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-slider-img" style="background: url('./images/main-slider.png') no-repeat">
+            <div class="container">
+                <div class="main-slider-info">
+                    <h2 class="section-first-title">КАТАЛОГ ПРОДУКЦИИ</h2>
+                    <div class="section-first-devider"></div>
+                    <div class="main-slider-info-text">
+                        <p>Натуральность и соответствие всем международным стандартам, позволяет потреблять продукт всем
+                            возрастным категориям. За всё время существования нашего предприятия количество покупателей
+                            только
+                            увеличивалось, были заключены долгосрочные договора на поставку нашей продукции. </p>
+                    </div>
+                    <h6 class="main-slider-title">ЕЛЕНА ПЕТРОВА</h6>
+                    <div class="main-slider-text">
+                        <p>АО “Билайн лимитед”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contacts">
+        <div class="container">
+            <h2 class="section-first-title">Обратная связь</h2>
+            <div class="section-first-devider"></div>
+            <div class="contacts-item row">
+                <div class=" contacts-input col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <input type="text" class="contacts-item-input" placeholder="ФИО">
+                </div>
+                <div class="contacts-input col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <input type="text" class="contacts-item-input" placeholder="Телефон">
+                </div>
+                <div class="contacts-input col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+                    <input type="email" class="contacts-item-input" placeholder="Email">
+                </div>
+            </div>
+            <div class="contacts-area">
+                <textarea class="contacts-area-item" placeholder="Комментарий"></textarea>
+            </div>
+            <div class="contacts-button-inner">
+                <button type="button" class="contacts-button">Отправить</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!--MAIN END-->
+
+<!--FOOTER BEGIN-->
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row footer-inner">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 order-xl-0 order-lg-0 order-md-1 order-sm-1 order-1">
+                    <div class="footer-info wow fadeInLeft" data-wow-duration="2s">
+                        <div class="footer-info-title1"><span>Адрес:</span>
+                            <p>Узбекистан, г. Ташкент
+                                Ул. Садыка Азимова, 68</p></div>
+                        <p class="footer-info-title"><span>Телефон:</span> +998 90 123 45 76</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 order-xl-1 order-lg-1 order-md-0 order-sm-0 order-0">
+                    <div class="footer-logo wow flash">
+                        <img src="images/logo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 order-xl-2 order-lg-2 order-md-2 order-sm-2 order-0">
+                    <div class="footer-social wow fadeInRight" data-wow-duration="1s">
+                        <a href="#" class="footer-social-item">
+                            <svg class="footer-social-item-facebook" fill="#fff" xmlns="http://www.w3.org/2000/svg"
+                                 width="24px" height="24px" viewBox="0 0 24 24">
+                                <path d="M16.403,9H14V7c0-1.032,0.084-1.682,1.563-1.682h0.868c0.552,0,1-0.448,1-1V3.064c0-0.523-0.401-0.97-0.923-1.005 C15.904,2.018,15.299,1.999,14.693,2C11.98,2,10,3.657,10,6.699V9H8c-0.552,0-1,0.448-1,1v2c0,0.552,0.448,1,1,1l2-0.001V21 c0,0.552,0.448,1,1,1h2c0.552,0,1-0.448,1-1v-8.003l2.174-0.001c0.508,0,0.935-0.381,0.993-0.886l0.229-1.996 C17.465,9.521,17.001,9,16.403,9z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer-social-item">
+                            <svg viewBox="0 -31 512 512" xmlns="http://www.w3.org/2000/svg">
+                                <path d="m123.195312 260.738281 63.679688 159.1875 82.902344-82.902343 142.140625 112.976562 100.082031-450-512 213.265625zm242.5-131.628906-156.714843 142.941406-19.519531 73.566407-36.058594-90.164063zm0 0"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="footer-social-item">
+                            <svg viewBox="0 0 511 511.9"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="m510.949219 150.5c-1.199219-27.199219-5.597657-45.898438-11.898438-62.101562-6.5-17.199219-16.5-32.597657-29.601562-45.398438-12.800781-13-28.300781-23.101562-45.300781-29.5-16.296876-6.300781-34.898438-10.699219-62.097657-11.898438-27.402343-1.300781-36.101562-1.601562-105.601562-1.601562s-78.199219.300781-105.5 1.5c-27.199219 1.199219-45.898438 5.601562-62.097657 11.898438-17.203124 6.5-32.601562 16.5-45.402343 29.601562-13 12.800781-23.097657 28.300781-29.5 45.300781-6.300781 16.300781-10.699219 34.898438-11.898438 62.097657-1.300781 27.402343-1.601562 36.101562-1.601562 105.601562s.300781 78.199219 1.5 105.5c1.199219 27.199219 5.601562 45.898438 11.902343 62.101562 6.5 17.199219 16.597657 32.597657 29.597657 45.398438 12.800781 13 28.300781 23.101562 45.300781 29.5 16.300781 6.300781 34.898438 10.699219 62.101562 11.898438 27.296876 1.203124 36 1.5 105.5 1.5s78.199219-.296876 105.5-1.5c27.199219-1.199219 45.898438-5.597657 62.097657-11.898438 34.402343-13.300781 61.601562-40.5 74.902343-74.898438 6.296876-16.300781 10.699219-34.902343 11.898438-62.101562 1.199219-27.300781 1.5-36 1.5-105.5s-.101562-78.199219-1.300781-105.5zm-46.097657 209c-1.101562 25-5.300781 38.5-8.800781 47.5-8.601562 22.300781-26.300781 40-48.601562 48.601562-9 3.5-22.597657 7.699219-47.5 8.796876-27 1.203124-35.097657 1.5-103.398438 1.5s-76.5-.296876-103.402343-1.5c-25-1.097657-38.5-5.296876-47.5-8.796876-11.097657-4.101562-21.199219-10.601562-29.398438-19.101562-8.5-8.300781-15-18.300781-19.101562-29.398438-3.5-9-7.699219-22.601562-8.796876-47.5-1.203124-27-1.5-35.101562-1.5-103.402343s.296876-76.5 1.5-103.398438c1.097657-25 5.296876-38.5 8.796876-47.5 4.101562-11.101562 10.601562-21.199219 19.203124-29.402343 8.296876-8.5 18.296876-15 29.398438-19.097657 9-3.5 22.601562-7.699219 47.5-8.800781 27-1.199219 35.101562-1.5 103.398438-1.5 68.402343 0 76.5.300781 103.402343 1.5 25 1.101562 38.5 5.300781 47.5 8.800781 11.097657 4.097657 21.199219 10.597657 29.398438 19.097657 8.5 8.300781 15 18.300781 19.101562 29.402343 3.5 9 7.699219 22.597657 8.800781 47.5 1.199219 27 1.5 35.097657 1.5 103.398438s-.300781 76.300781-1.5 103.300781zm0 0"/>
+                                <path d="m256.449219 124.5c-72.597657 0-131.5 58.898438-131.5 131.5s58.902343 131.5 131.5 131.5c72.601562 0 131.5-58.898438 131.5-131.5s-58.898438-131.5-131.5-131.5zm0 216.800781c-47.097657 0-85.300781-38.199219-85.300781-85.300781s38.203124-85.300781 85.300781-85.300781c47.101562 0 85.300781 38.199219 85.300781 85.300781s-38.199219 85.300781-85.300781 85.300781zm0 0"/>
+                                <path d="m423.851562 119.300781c0 16.953125-13.746093 30.699219-30.703124 30.699219-16.953126 0-30.699219-13.746094-30.699219-30.699219 0-16.957031 13.746093-30.699219 30.699219-30.699219 16.957031 0 30.703124 13.742188 30.703124 30.699219zm0 0"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-bottom-title">© DELICE CHOCOLATE</p>
+                <p class="footer-bottom-title">2020 - Web developed by
+                    <a href="">SOS Group</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--FOOTER END-->
+
+
+<script src="libs/jquery/jquery.min.js"></script>
+<script src="libs/jquery-validate/jquery.validate.min.js"></script>
+<script src="libs/slick/slick.min.js"></script>
+<script src="libs/wow/dist/wow.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+<script src="libs/custom-modal/custom-modal.js"></script>
+<script src="libs/fancybox/jquery.fancybox.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
